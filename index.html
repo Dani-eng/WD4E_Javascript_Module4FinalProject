@@ -2,21 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Photo Gallery</title>
+	<title>Accessible Photo Gallery for American Dog Breeds</title>
 	<link rel="stylesheet" href="css/gallery.css">
 	<script src = "js/gallery.js"></script>
 </head>
+<h1 tabindex="1"> An Accessible Photo Gallery for A Selection of American Dog Breeds </h1>
 <body>
 	
-	<div id = "image">
+	<div tabindex="2" id = "image">
 		Hover over an image below to display here.
 	</div>
 	
-	<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<div tabindex="3"> 
+	<img class = "preview"  alt = "Seated American Pitbull Terrier" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/American_Pit_Bull_Terrier_-_Seated.jpg/250px-American_Pit_Bull_Terrier_-_Seated.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" onmouseover = "upDate(this)" onmouseout = "unDo()" oonfocus="onFocus()" onblur="onBlur()" onload="onLoad()">
 	
-	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" alt= "Seated Alaskan Husky" src="https://live.staticflickr.com/69/184161283_d7a0e8c0b1_z.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="onFocus()" onblur="onBlur()" onload="onLoad()">
 	
-	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
+	<img class = "preview" alt = "Seated Boston Terrier" src= "https://live.staticflickr.com/4117/4751390781_f8fa970e1e_z.jpg"  onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="onFocus()" onblur="onBlur()" onload="onLoad()">
 
+	<img class = "preview" alt = "Seated Leopard Hound" src = "https://upload.wikimedia.org/wikipedia/commons/6/69/Catahoula_Leopard_Hound_Dog.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"  onmouseover = "upDate(this)" onmouseout = "unDo()" oonfocus="onFocus()" onblur="onBlur()" onload="onLoad()">
+
+	<img class = "preview" alt = "Standing Toy Fox Terrier" src = "https://upload.wikimedia.org/wikipedia/commons/2/2d/Toy_Fox_Terrier.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"  onmouseover = "upDate(this)" onmouseout = "unDo()" oonfocus="onFocus()" onblur="onBlur()" onload="onLoad()">
+
+	<img class = "preview" alt = "Cocker Spaniel laying down" src = "https://upload.wikimedia.org/wikipedia/commons/1/12/Bojars%27s_english_cocker_spaniel.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"  onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="onFocus()" onblur="onBlur()" onload="onLoad()">
+	</div>
 </body>
 </html>
